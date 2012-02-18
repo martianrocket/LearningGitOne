@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC77D87114EF5E1E0047EAAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC77D87014EF5E1E0047EAAE /* UIKit.framework */; };
+		DC77D87314EF5E1E0047EAAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC77D87214EF5E1E0047EAAE /* Foundation.framework */; };
+		DC77D87514EF5E1E0047EAAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC77D87414EF5E1E0047EAAE /* CoreGraphics.framework */; };
+		DC77D87B14EF5E1E0047EAAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC77D87914EF5E1E0047EAAE /* InfoPlist.strings */; };
+		DC77D87D14EF5E1E0047EAAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC77D87C14EF5E1E0047EAAE /* main.m */; };
+		DC77D88114EF5E1E0047EAAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC77D88014EF5E1E0047EAAE /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC77D86C14EF5E1E0047EAAE /* LearningGitOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningGitOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC77D87014EF5E1E0047EAAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC77D87214EF5E1E0047EAAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC77D87414EF5E1E0047EAAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC77D87814EF5E1E0047EAAE /* LearningGitOne-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearningGitOne-Info.plist"; sourceTree = "<group>"; };
+		DC77D87A14EF5E1E0047EAAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC77D87C14EF5E1E0047EAAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC77D87E14EF5E1E0047EAAE /* LearningGitOne-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearningGitOne-Prefix.pch"; sourceTree = "<group>"; };
+		DC77D87F14EF5E1E0047EAAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC77D88014EF5E1E0047EAAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC77D86914EF5E1E0047EAAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC77D87114EF5E1E0047EAAE /* UIKit.framework in Frameworks */,
+				DC77D87314EF5E1E0047EAAE /* Foundation.framework in Frameworks */,
+				DC77D87514EF5E1E0047EAAE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC77D86114EF5E1E0047EAAE = {
+			isa = PBXGroup;
+			children = (
+				DC77D87614EF5E1E0047EAAE /* LearningGitOne */,
+				DC77D86F14EF5E1E0047EAAE /* Frameworks */,
+				DC77D86D14EF5E1E0047EAAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC77D86D14EF5E1E0047EAAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC77D86C14EF5E1E0047EAAE /* LearningGitOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC77D86F14EF5E1E0047EAAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC77D87014EF5E1E0047EAAE /* UIKit.framework */,
+				DC77D87214EF5E1E0047EAAE /* Foundation.framework */,
+				DC77D87414EF5E1E0047EAAE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC77D87614EF5E1E0047EAAE /* LearningGitOne */ = {
+			isa = PBXGroup;
+			children = (
+				DC77D87F14EF5E1E0047EAAE /* AppDelegate.h */,
+				DC77D88014EF5E1E0047EAAE /* AppDelegate.m */,
+				DC77D87714EF5E1E0047EAAE /* Supporting Files */,
+			);
+			path = LearningGitOne;
+			sourceTree = "<group>";
+		};
+		DC77D87714EF5E1E0047EAAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC77D87814EF5E1E0047EAAE /* LearningGitOne-Info.plist */,
+				DC77D87914EF5E1E0047EAAE /* InfoPlist.strings */,
+				DC77D87C14EF5E1E0047EAAE /* main.m */,
+				DC77D87E14EF5E1E0047EAAE /* LearningGitOne-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC77D86B14EF5E1E0047EAAE /* LearningGitOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC77D88414EF5E1E0047EAAE /* Build configuration list for PBXNativeTarget "LearningGitOne" */;
+			buildPhases = (
+				DC77D86814EF5E1E0047EAAE /* Sources */,
+				DC77D86914EF5E1E0047EAAE /* Frameworks */,
+				DC77D86A14EF5E1E0047EAAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningGitOne;
+			productName = LearningGitOne;
+			productReference = DC77D86C14EF5E1E0047EAAE /* LearningGitOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC77D86314EF5E1E0047EAAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DC77D86614EF5E1E0047EAAE /* Build configuration list for PBXProject "LearningGitOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC77D86114EF5E1E0047EAAE;
+			productRefGroup = DC77D86D14EF5E1E0047EAAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC77D86B14EF5E1E0047EAAE /* LearningGitOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC77D86A14EF5E1E0047EAAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC77D87B14EF5E1E0047EAAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC77D86814EF5E1E0047EAAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC77D87D14EF5E1E0047EAAE /* main.m in Sources */,
+				DC77D88114EF5E1E0047EAAE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC77D87914EF5E1E0047EAAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC77D87A14EF5E1E0047EAAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC77D88214EF5E1E0047EAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC77D88314EF5E1E0047EAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC77D88514EF5E1E0047EAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningGitOne/LearningGitOne-Prefix.pch";
+				INFOPLIST_FILE = "LearningGitOne/LearningGitOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC77D88614EF5E1E0047EAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningGitOne/LearningGitOne-Prefix.pch";
+				INFOPLIST_FILE = "LearningGitOne/LearningGitOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC77D86614EF5E1E0047EAAE /* Build configuration list for PBXProject "LearningGitOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC77D88214EF5E1E0047EAAE /* Debug */,
+				DC77D88314EF5E1E0047EAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC77D88414EF5E1E0047EAAE /* Build configuration list for PBXNativeTarget "LearningGitOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC77D88514EF5E1E0047EAAE /* Debug */,
+				DC77D88614EF5E1E0047EAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC77D86314EF5E1E0047EAAE /* Project object */;
+}
