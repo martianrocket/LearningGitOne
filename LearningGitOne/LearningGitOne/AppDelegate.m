@@ -19,7 +19,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     // first commnet after initial commit..
-    
+    // this is first commnet from martian rocket .. I am in love with github...
     return YES;
 }
 
